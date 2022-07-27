@@ -3,8 +3,6 @@ const { sum } = require('./sum.js');
 
 describe('sum', () => {
 
-  const OLD_ENV = process.env;
-
   beforeEach(() => {
     jest.resetModules(); // remove cache
   })
