@@ -1,5 +1,5 @@
 require("dotenv").config({ path: './.env.test' });
-const { sum } = require('./sum.js');
+import { sum } from './sum.js';
 
 describe('sum', () => {
 
